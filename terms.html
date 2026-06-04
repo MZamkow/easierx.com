@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — EasieRx</title>
+<meta name="description" content="EasieRx Terms of Service. Please read these terms carefully before using our telehealth platform and services.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://easierx.com/terms">
+<meta property="og:title" content="Terms of Service — EasieRx">
+<meta property="og:url" content="https://easierx.com/terms">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-07W0G6CW9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-07W0G6CW9M');
+</script>
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --sage: #8BA888;
+    --sage-light: #E8EFE7;
+    --sage-dark: #4A6B47;
+    --cream: #F9F6F0;
+    --cream-dark: #EDE8DE;
+    --charcoal: #2C2C28;
+    --charcoal-mid: #5A5A54;
+    --warm-white: #FDFCFA;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--charcoal);
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.25rem 4rem;
+    background: rgba(253, 252, 250, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(139,168,136,0.15);
+  }
+
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--charcoal);
+    letter-spacing: -0.02em;
+    text-decoration: none;
+  }
+  .logo span { color: var(--sage-dark); font-style: italic; }
+
+  nav ul { list-style: none; display: flex; gap: 2.5rem; }
+  nav ul a { text-decoration: none; color: var(--charcoal-mid); font-size: 0.875rem; font-weight: 400; letter-spacing: 0.02em; transition: color 0.2s; }
+  nav ul a:hover { color: var(--sage-dark); }
+
+  .nav-cta {
+    background: var(--charcoal);
+    color: var(--warm-white) !important;
+    padding: 0.6rem 1.5rem;
+    border-radius: 2px;
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase;
+    transition: background 0.2s !important;
+  }
+  .nav-cta:hover { background: var(--sage-dark) !important; }
+
+  /* PAGE HEADER */
+  .page-header {
+    padding: 8rem 4rem 4rem;
+    background: var(--cream);
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .page-header p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .page-header p::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 1px;
+    background: var(--sage);
+  }
+
+  .page-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: var(--charcoal);
+    margin-bottom: 1rem;
+  }
+
+  .page-header .meta {
+    font-size: 0.82rem;
+    color: var(--charcoal-mid);
+    font-weight: 300;
+  }
+
+  /* CONTENT */
+  .content-wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 5rem 2rem 7rem;
+  }
+
+  .toc {
+    background: var(--cream);
+    border-left: 3px solid var(--sage);
+    padding: 1.75rem 2rem;
+    margin-bottom: 4rem;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .toc h2 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+    margin-bottom: 1rem;
+  }
+
+  .toc ol {
+    list-style: decimal;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .toc ol a {
+    font-size: 0.875rem;
+    color: var(--charcoal-mid);
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.2s;
+  }
+  .toc ol a:hover { color: var(--sage-dark); }
+
+  .policy-section {
+    margin-bottom: 3.5rem;
+    padding-bottom: 3.5rem;
+    border-bottom: 1px solid var(--cream-dark);
+  }
+  .policy-section:last-child { border-bottom: none; }
+
+  .policy-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--charcoal);
+    margin-bottom: 1.25rem;
+  }
+
+  .policy-section h3 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--charcoal);
+    margin: 1.75rem 0 0.6rem;
+  }
+
+  .policy-section p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--charcoal-mid);
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  .policy-section p:last-child { margin-bottom: 0; }
+
+  .policy-section ul, .policy-section ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .policy-section ul li, .policy-section ol li {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--charcoal-mid);
+    font-weight: 300;
+    margin-bottom: 0.35rem;
+  }
+
+  .policy-section a {
+    color: var(--sage-dark);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .policy-section a:hover { color: var(--charcoal); }
+
+  .highlight-box {
+    background: var(--sage-light);
+    border-left: 3px solid var(--sage);
+    padding: 1.25rem 1.5rem;
+    border-radius: 0 4px 4px 0;
+    margin: 1.5rem 0;
+  }
+
+  .highlight-box p {
+    font-size: 0.875rem;
+    color: var(--charcoal);
+    font-weight: 400 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .warning-box {
+    background: #FDF6EC;
+    border-left: 3px solid #C4A96A;
+    padding: 1.25rem 1.5rem;
+    border-radius: 0 4px 4px 0;
+    margin: 1.5rem 0;
+  }
+
+  .warning-box p {
+    font-size: 0.875rem;
+    color: var(--charcoal);
+    font-weight: 400 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--charcoal);
+    color: rgba(253,252,250,0.5);
+    padding: 3rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: var(--warm-white);
+    text-decoration: none;
+    font-weight: 400;
+  }
+  .footer-logo span { font-style: italic; color: var(--sage); }
+
+  .footer-links { display: flex; gap: 2rem; }
+  .footer-links a { color: rgba(253,252,250,0.4); text-decoration: none; font-size: 0.75rem; transition: color 0.2s; }
+  .footer-links a:hover { color: rgba(253,252,250,0.8); }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="logo">Easie<span>Rx</span></a>
+  <ul>
+    <li><a href="/#how">How It Works</a></li>
+    <li><a href="/#why">Why Us</a></li>
+    <li><a href="/#pricing">Pricing</a></li>
+    <li><a href="/#start" class="nav-cta">Get Started</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <p>Legal</p>
+  <h1>Terms of Service</h1>
+  <span class="meta">Last updated: June 1, 2026</span>
+</div>
+
+<!-- CONTENT -->
+<div class="content-wrap">
+
+  <div class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#acceptance">Acceptance of Terms</a></li>
+      <li><a href="#services">Description of Services</a></li>
+      <li><a href="#eligibility">Eligibility</a></li>
+      <li><a href="#accounts">Accounts & Registration</a></li>
+      <li><a href="#medical">Medical Services & No Doctor-Patient Guarantee</a></li>
+      <li><a href="#prescriptions">Prescriptions & Medications</a></li>
+      <li><a href="#payments">Payments, Billing & Cancellation</a></li>
+      <li><a href="#conduct">Acceptable Use</a></li>
+      <li><a href="#ip">Intellectual Property</a></li>
+      <li><a href="#privacy">Privacy & HIPAA</a></li>
+      <li><a href="#disclaimers">Disclaimers & Limitation of Liability</a></li>
+      <li><a href="#indemnification">Indemnification</a></li>
+      <li><a href="#disputes">Dispute Resolution & Arbitration</a></li>
+      <li><a href="#termination">Termination</a></li>
+      <li><a href="#changes">Changes to These Terms</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </div>
+
+  <div class="policy-section" id="acceptance">
+    <h2>1. Acceptance of Terms</h2>
+    <p>These Terms of Service ("Terms") constitute a legally binding agreement between you and EasieRx ("EasieRx," "we," "us," or "our"), governing your access to and use of the EasieRx website at easierx.com and all related services (collectively, the "Services").</p>
+    <p>By creating an account, completing a health intake, or otherwise using our Services, you confirm that you have read, understood, and agree to be bound by these Terms and our <a href="/privacy.html">Privacy Policy</a>. If you do not agree, you may not use our Services.</p>
+    <div class="warning-box">
+      <p>Please read these Terms carefully. Section 13 contains an arbitration clause and class action waiver that affects how disputes between you and EasieRx are resolved.</p>
+    </div>
+  </div>
+
+  <div class="policy-section" id="services">
+    <h2>2. Description of Services</h2>
+    <p>EasieRx is a telehealth platform that connects individuals with independent, licensed physicians who may, at their sole clinical discretion, prescribe GLP-1 medications. Where a prescription is issued, EasieRx facilitates the compounding and delivery of medication through our network of licensed 503A compounding pharmacies.</p>
+    <p>Our Services include:</p>
+    <ul>
+      <li>An online health intake and assessment process</li>
+      <li>Facilitation of asynchronous or synchronous consultations with licensed physicians      <li>Transmission of prescriptions to licensed 503A compounding pharmacies</li>
+      <li>Coordination of medication delivery to your specified address</li>
+      <li>Ongoing patient support via our care team</li>
+    </ul>
+    <p>EasieRx is not a medical practice, does not employ physicians, and does not practice medicine. The physicians available through our platform are independent licensed practitioners.</p>
+  </div>
+
+  <div class="policy-section" id="eligibility">
+    <h2>3. Eligibility</h2>
+    <p>To use our Services, you must:</p>
+    <ul>
+      <li>Be at least 18 years of age</li>
+      <li>Be a resident of a U.S. state in which our Services are available</li>
+      <li>Have the legal capacity to enter into a binding agreement</li>
+      <li>Not be prohibited from receiving our Services under applicable law</li>
+      <li>Provide accurate, complete, and current information during registration and your health intake</li>
+    </ul>
+    <p>GLP-1 medications are generally indicated for adults with a body mass index (BMI) of 30 or greater, or 27 or greater with at least one weight-related health condition. Eligibility for a prescription is determined solely by the prescribing physician based on your individual health profile. EasieRx does not guarantee that a prescription will be issued.</p>
+  </div>
+
+  <div class="policy-section" id="accounts">
+    <h2>4. Accounts & Registration</h2>
+    <p>To access our Services, you must create an account. You agree to:</p>
+    <ul>
+      <li>Provide accurate, truthful, and complete information during registration</li>
+      <li>Keep your account information up to date</li>
+      <li>Maintain the confidentiality of your login credentials</li>
+      <li>Notify us immediately of any unauthorized access to your account at <a href="mailto:support@easierx.com">support@easierx.com</a></li>
+      <li>Accept responsibility for all activity that occurs under your account</li>
+    </ul>
+    <p>You may not create an account on behalf of another person without their explicit consent, or share your account with any other individual. EasieRx reserves the right to suspend or terminate accounts that violate these Terms.</p>
+  </div>
+
+  <div class="policy-section" id="medical">
+    <h2>5. Medical Services & No Doctor-Patient Guarantee</h2>
+
+    <div class="highlight-box">
+      <p>EasieRx is not a substitute for in-person medical care. Our platform facilitates access to telehealth services but does not guarantee the establishment of a doctor-patient relationship or the issuance of a prescription.</p>
+    </div>
+
+    <h3>Nature of telehealth services</h3>
+    <p>The physicians on our platform provide telehealth consultations based on the health information you submit. These consultations are conducted asynchronously or via secure messaging and are subject to the physician's independent clinical judgment. All medical decisions, including whether to prescribe medication, are made solely by the treating physician.</p>
+
+    <h3>No guarantee of treatment</h3>
+    <p>Completing a health intake does not guarantee that you will be approved for a prescription. A physician may decline to prescribe for any clinical reason, including if they determine that GLP-1 medication is not appropriate for your health profile.</p>
+
+    <h3>Emergency situations</h3>
+    <p>Our Services are not designed for medical emergencies. If you are experiencing a medical emergency, call 911 or go to your nearest emergency room immediately. Do not rely on EasieRx for urgent medical needs.</p>
+
+    <h3>Accuracy of health information</h3>
+    <p>You are responsible for providing complete and accurate health information. Providing false or incomplete information may result in inappropriate medical treatment and could be dangerous to your health. EasieRx and its affiliated physicians are not liable for adverse outcomes resulting from inaccurate information you provide.</p>
+  </div>
+
+  <div class="policy-section" id="prescriptions">
+    <h2>6. Prescriptions & Medications</h2>
+
+    <h3>Compounded medications</h3>
+    <p>Medications fulfilled through EasieRx are compounded by licensed 503A compounding pharmacies. Compounded medications are not FDA-approved drug products. They are prepared by licensed pharmacists pursuant to a valid prescription for an individual patient. Quality and safety standards are maintained in accordance with applicable state and federal pharmacy regulations.</p>
+
+    <h3>Prescription validity</h3>
+    <p>Prescriptions issued through our platform are valid only for the patient named and may not be transferred, shared, or used by any other person. Using another person's prescription medication is illegal and dangerous.</p>
+
+    <h3>Medication handling</h3>
+    <p>You are responsible for storing and handling your medication in accordance with the instructions provided. EasieRx is not responsible for medication that is damaged due to improper storage after delivery.</p>
+
+    <h3>Refills & continuity</h3>
+    <p>Refills are subject to ongoing compliance with applicable medical and regulatory requirements. The prescribing physician retains the right to discontinue a prescription at any time based on clinical judgment. EasieRx does not guarantee uninterrupted supply of medication.</p>
+
+    <h3>Side effects & risks</h3>
+    <p>GLP-1 medications carry potential side effects and risks, which will be discussed as part of your consultation. You acknowledge that you have been informed of these risks and agree to report any adverse effects to your care team promptly.</p>
+  </div>
+
+  <div class="policy-section" id="payments">
+    <h2>7. Payments, Billing & Cancellation</h2>
+
+    <h3>Pricing</h3>
+    <p>Current pricing for our Services is displayed on our website. Prices are subject to change with reasonable notice. Your monthly plan covers the physician consultation, medication compounding, and delivery unless otherwise stated.</p>
+
+    <h3>Billing</h3>
+    <p>By providing payment information, you authorize EasieRx to charge your payment method on a recurring monthly basis for your selected plan. All charges are in U.S. dollars. You are responsible for ensuring your payment information remains current and accurate.</p>
+
+    <h3>No insurance billing</h3>
+    <p>EasieRx does not bill insurance. Our Services are offered on a direct-pay basis. We do not submit claims to insurance providers, Medicare, or Medicaid on your behalf.</p>
+
+    <h3>Refunds</h3>
+    <p>Due to the nature of compounded medications and professional medical services, all sales are final once a prescription has been issued and medication has been compounded or shipped. If you have concerns about a charge, please contact us at <a href="mailto:billing@easierx.com">billing@easierx.com</a> within 30 days.</p>
+
+    <h3>Cancellation</h3>
+    <p>You may cancel your subscription at any time by contacting us at <a href="mailto:support@easierx.com">support@easierx.com</a> or through your account portal. Cancellations take effect at the end of your current billing cycle. You will not be charged for subsequent months, but you will not receive a refund for the current period.</p>
+  </div>
+
+  <div class="policy-section" id="conduct">
+    <h2>8. Acceptable Use</h2>
+    <p>You agree to use our Services only for lawful purposes and in accordance with these Terms. You agree not to:</p>
+    <ul>
+      <li>Provide false, misleading, or fraudulent health or personal information</li>
+      <li>Attempt to obtain prescriptions for someone other than yourself</li>
+      <li>Use our Services to obtain medications for resale or distribution</li>
+      <li>Attempt to circumvent, hack, or otherwise interfere with the security of our platform</li>
+      <li>Use automated tools to scrape, crawl, or extract data from our website</li>
+      <li>Harass, threaten, or abuse our physicians, pharmacists, or staff</li>
+      <li>Violate any applicable federal, state, or local law or regulation</li>
+      <li>Infringe on the intellectual property rights of EasieRx or any third party</li>
+    </ul>
+    <p>We reserve the right to suspend or terminate your account immediately for any violation of this section.</p>
+  </div>
+
+  <div class="policy-section" id="ip">
+    <h2>9. Intellectual Property</h2>
+    <p>All content on the EasieRx website and platform — including text, graphics, logos, images, and software — is the property of EasieRx or its licensors and is protected by applicable intellectual property laws.</p>
+    <p>You are granted a limited, non-exclusive, non-transferable license to access and use our Services for your personal, non-commercial use. You may not reproduce, distribute, modify, create derivative works of, or commercially exploit any content from our platform without our prior written consent.</p>
+  </div>
+
+  <div class="policy-section" id="privacy">
+    <h2>10. Privacy & HIPAA</h2>
+    <p>Your use of our Services is also governed by our <a href="/privacy.html">Privacy Policy</a>, which is incorporated into these Terms by reference. By using our Services, you consent to the collection, use, and sharing of your information as described in our Privacy Policy.</p>
+    <p>As a telehealth platform facilitating medical services, EasieRx is subject to HIPAA. Our handling of your protected health information is governed by our Notice of Privacy Practices, provided to you at the time of account creation.</p>
+  </div>
+
+  <div class="policy-section" id="disclaimers">
+    <h2>11. Disclaimers & Limitation of Liability</h2>
+
+    <h3>Disclaimer of warranties</h3>
+    <p>Our Services are provided "as is" and "as available" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that our Services will be uninterrupted, error-free, or free of viruses or other harmful components.</p>
+    <p>EasieRx does not warrant or guarantee any specific medical outcome, weight loss result, or health improvement from use of our Services or any prescribed medication. Individual results will vary.</p>
+
+    <h3>Limitation of liability</h3>
+    <p>To the maximum extent permitted by applicable law, EasieRx and its officers, directors, employees, agents, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages — including loss of profits, data, goodwill, or other intangible losses — arising from your use of or inability to use our Services.</p>
+    <p>In no event shall EasieRx's total liability to you for all claims arising from or related to these Terms or your use of our Services exceed the total amount you paid to EasieRx in the twelve (12) months preceding the claim.</p>
+    <p>Some jurisdictions do not allow the exclusion or limitation of certain damages, so the above limitations may not apply to you.</p>
+  </div>
+
+  <div class="policy-section" id="indemnification">
+    <h2>12. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless EasieRx and its officers, directors, employees, agents, and affiliates from and against any claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising out of or in connection with:</p>
+    <ul>
+      <li>Your use of or access to our Services</li>
+      <li>Your violation of these Terms</li>
+      <li>Your provision of false or inaccurate health or personal information</li>
+      <li>Your violation of any applicable law or the rights of any third party</li>
+    </ul>
+  </div>
+
+  <div class="policy-section" id="disputes">
+    <h2>13. Dispute Resolution & Arbitration</h2>
+
+    <div class="warning-box">
+      <p>Please read this section carefully. It requires you to resolve most disputes with EasieRx through binding individual arbitration rather than in court, and waives your right to participate in class actions.</p>
+    </div>
+
+    <h3>Informal resolution</h3>
+    <p>Before initiating any formal dispute, you agree to contact us at <a href="mailto:legal@easierx.com">legal@easierx.com</a> and attempt to resolve the dispute informally. We will try to resolve the matter within 30 days of receiving your notice.</p>
+
+    <h3>Binding arbitration</h3>
+    <p>If informal resolution is unsuccessful, any dispute, claim, or controversy arising out of or relating to these Terms or our Services shall be resolved by binding individual arbitration administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules. The arbitration shall be conducted in English and, unless otherwise agreed, shall take place in the state in which you reside.</p>
+
+    <h3>Class action waiver</h3>
+    <p>You and EasieRx each waive any right to participate in a class action lawsuit or class-wide arbitration. All disputes must be brought on an individual basis only.</p>
+
+    <h3>Exceptions</h3>
+    <p>Nothing in this section prevents either party from seeking emergency injunctive relief from a court to prevent irreparable harm, or from filing individual claims in small claims court where eligible.</p>
+
+    <h3>Governing law</h3>
+    <p>These Terms are governed by the laws of the State of Delaware, without regard to conflict of law principles.</p>
+  </div>
+
+  <div class="policy-section" id="termination">
+    <h2>14. Termination</h2>
+    <p>EasieRx reserves the right to suspend or terminate your access to our Services at any time, with or without notice, for any reason, including but not limited to:</p>
+    <ul>
+      <li>Violation of these Terms</li>
+      <li>Provision of false or fraudulent information</li>
+      <li>Conduct that we determine, in our sole discretion, is harmful to other users, our staff, or our business</li>
+      <li>Non-payment of applicable fees</li>
+    </ul>
+    <p>You may terminate your account at any time by contacting us at <a href="mailto:support@easierx.com">support@easierx.com</a>. Upon termination, your right to use our Services ceases immediately. Sections that by their nature should survive termination — including Sections 9, 11, 12, and 13 — shall survive.</p>
+  </div>
+
+  <div class="policy-section" id="changes">
+    <h2>15. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. When we make material changes, we will notify you by email or by posting a prominent notice on our website at least 14 days before the changes take effect. Your continued use of our Services after the effective date of any changes constitutes your acceptance of the updated Terms.</p>
+    <p>If you do not agree to the revised Terms, you must stop using our Services and cancel your account before the changes take effect.</p>
+  </div>
+
+  <div class="policy-section" id="contact">
+    <h2>16. Contact Us</h2>
+    <p>If you have questions or concerns about these Terms, please contact us:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:legal@easierx.com">legal@easierx.com</a></li>
+      <li><strong>Website:</strong> <a href="https://easierx.com">easierx.com</a></li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <a href="/" class="footer-logo">Easie<span>Rx</span></a>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Service</a>
+    <a href="/hipaa.html">HIPAA Notice</a>
+    <a href="#">Contact</a>
+  </div>
+  <p>© 2026 EasieRx · easierx.com</p>
+</footer>
+
+</body>
+</html>

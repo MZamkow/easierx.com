@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HIPAA Notice of Privacy Practices — EasieRx</title>
+<meta name="description" content="EasieRx HIPAA Notice of Privacy Practices. Learn about your rights regarding your protected health information.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://easierx.com/hipaa">
+<meta property="og:title" content="HIPAA Notice of Privacy Practices — EasieRx">
+<meta property="og:url" content="https://easierx.com/hipaa">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-07W0G6CW9M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-07W0G6CW9M');
+</script>
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --sage: #8BA888;
+    --sage-light: #E8EFE7;
+    --sage-dark: #4A6B47;
+    --cream: #F9F6F0;
+    --cream-dark: #EDE8DE;
+    --charcoal: #2C2C28;
+    --charcoal-mid: #5A5A54;
+    --warm-white: #FDFCFA;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--warm-white);
+    color: var(--charcoal);
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.25rem 4rem;
+    background: rgba(253, 252, 250, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(139,168,136,0.15);
+  }
+
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--charcoal);
+    letter-spacing: -0.02em;
+    text-decoration: none;
+  }
+  .logo span { color: var(--sage-dark); font-style: italic; }
+
+  nav ul { list-style: none; display: flex; gap: 2.5rem; }
+  nav ul a { text-decoration: none; color: var(--charcoal-mid); font-size: 0.875rem; font-weight: 400; letter-spacing: 0.02em; transition: color 0.2s; }
+  nav ul a:hover { color: var(--sage-dark); }
+
+  .nav-cta {
+    background: var(--charcoal);
+    color: var(--warm-white) !important;
+    padding: 0.6rem 1.5rem;
+    border-radius: 2px;
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase;
+    transition: background 0.2s !important;
+  }
+  .nav-cta:hover { background: var(--sage-dark) !important; }
+
+  /* PAGE HEADER */
+  .page-header {
+    padding: 8rem 4rem 4rem;
+    background: var(--cream);
+    border-bottom: 1px solid var(--cream-dark);
+  }
+
+  .page-header p.label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .page-header p.label::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 1px;
+    background: var(--sage);
+  }
+
+  .page-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    color: var(--charcoal);
+    margin-bottom: 0.75rem;
+  }
+
+  .page-header .meta {
+    font-size: 0.82rem;
+    color: var(--charcoal-mid);
+    font-weight: 300;
+  }
+
+  /* CONTENT */
+  .content-wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 5rem 2rem 7rem;
+  }
+
+  .required-notice {
+    background: var(--charcoal);
+    color: var(--warm-white);
+    padding: 1.75rem 2rem;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+  }
+
+  .required-notice h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--sage);
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.02em;
+  }
+
+  .required-notice p {
+    font-size: 0.875rem;
+    line-height: 1.75;
+    color: rgba(253,252,250,0.7);
+    font-weight: 300;
+  }
+
+  .toc {
+    background: var(--cream);
+    border-left: 3px solid var(--sage);
+    padding: 1.75rem 2rem;
+    margin-bottom: 4rem;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .toc h2 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+    margin-bottom: 1rem;
+  }
+
+  .toc ol {
+    list-style: decimal;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .toc ol a {
+    font-size: 0.875rem;
+    color: var(--charcoal-mid);
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.2s;
+  }
+  .toc ol a:hover { color: var(--sage-dark); }
+
+  .policy-section {
+    margin-bottom: 3.5rem;
+    padding-bottom: 3.5rem;
+    border-bottom: 1px solid var(--cream-dark);
+  }
+  .policy-section:last-child { border-bottom: none; }
+
+  .policy-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--charcoal);
+    margin-bottom: 1.25rem;
+  }
+
+  .policy-section h3 {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--charcoal);
+    margin: 1.75rem 0 0.6rem;
+  }
+
+  .policy-section p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--charcoal-mid);
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  .policy-section p:last-child { margin-bottom: 0; }
+
+  .policy-section ul, .policy-section ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .policy-section ul li, .policy-section ol li {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--charcoal-mid);
+    font-weight: 300;
+    margin-bottom: 0.35rem;
+  }
+
+  .policy-section a {
+    color: var(--sage-dark);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .policy-section a:hover { color: var(--charcoal); }
+
+  .highlight-box {
+    background: var(--sage-light);
+    border-left: 3px solid var(--sage);
+    padding: 1.25rem 1.5rem;
+    border-radius: 0 4px 4px 0;
+    margin: 1.5rem 0;
+  }
+
+  .highlight-box p {
+    font-size: 0.875rem;
+    color: var(--charcoal);
+    font-weight: 400 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .rights-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    margin: 1.5rem 0;
+  }
+
+  .right-card {
+    background: var(--cream);
+    padding: 1.5rem;
+  }
+
+  .right-card h4 {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--charcoal);
+    margin-bottom: 0.5rem;
+  }
+
+  .right-card p {
+    font-size: 0.8rem !important;
+    line-height: 1.65 !important;
+    color: var(--charcoal-mid) !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--charcoal);
+    color: rgba(253,252,250,0.5);
+    padding: 3rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: var(--warm-white);
+    text-decoration: none;
+    font-weight: 400;
+  }
+  .footer-logo span { font-style: italic; color: var(--sage); }
+
+  .footer-links { display: flex; gap: 2rem; }
+  .footer-links a { color: rgba(253,252,250,0.4); text-decoration: none; font-size: 0.75rem; transition: color 0.2s; }
+  .footer-links a:hover { color: rgba(253,252,250,0.8); }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="logo">Easie<span>Rx</span></a>
+  <ul>
+    <li><a href="/#how">How It Works</a></li>
+    <li><a href="/#why">Why Us</a></li>
+    <li><a href="/#pricing">Pricing</a></li>
+    <li><a href="/#start" class="nav-cta">Get Started</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <p class="label">Legal</p>
+  <h1>HIPAA Notice of Privacy Practices</h1>
+  <span class="meta">Effective date: June 1, 2026 &nbsp;·&nbsp; This notice describes how medical information about you may be used and disclosed and how you can get access to this information.</span>
+</div>
+
+<!-- CONTENT -->
+<div class="content-wrap">
+
+  <div class="required-notice">
+    <h2>Please review this notice carefully.</h2>
+    <p>This Notice of Privacy Practices describes how EasieRx and the healthcare providers on our platform may use and disclose your protected health information (PHI) to carry out treatment, payment, and healthcare operations, and for other purposes permitted or required by law. It also describes your rights to access and control your PHI. You have the right to receive a copy of this notice upon request.</p>
+  </div>
+
+  <div class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#phi">What Is Protected Health Information?</a></li>
+      <li><a href="#uses">How We May Use & Disclose Your PHI</a></li>
+      <li><a href="#special">Special Categories Requiring Additional Protections</a></li>
+      <li><a href="#your-rights">Your Rights Regarding Your PHI</a></li>
+      <li><a href="#our-duties">Our Duties</a></li>
+      <li><a href="#complaints">How to File a Complaint</a></li>
+      <li><a href="#contact">Contact Our Privacy Officer</a></li>
+    </ol>
+  </div>
+
+  <div class="policy-section" id="phi">
+    <h2>1. What Is Protected Health Information?</h2>
+    <p>Protected Health Information (PHI) is any information that relates to your past, present, or future physical or mental health condition; the provision of healthcare to you; or payment for healthcare services, and that can be used to identify you. This includes information such as your name, address, date of birth, diagnosis, prescription details, and payment information when combined with health data.</p>
+    <p>PHI may be in written, oral, or electronic form. Electronic PHI (ePHI) is subject to the same protections under HIPAA's Security Rule as other forms of PHI.</p>
+    <div class="highlight-box">
+      <p>EasieRx is committed to maintaining the privacy of your PHI and is required by law to provide you with this notice of our legal duties and privacy practices.</p>
+    </div>
+  </div>
+
+  <div class="policy-section" id="uses">
+    <h2>2. How We May Use & Disclose Your PHI</h2>
+    <p>We may use and disclose your PHI without your written authorization for the following purposes:</p>
+
+    <h3>Treatment</h3>
+    <p>We may use and disclose your PHI to provide, coordinate, or manage your healthcare and related services. This includes sharing your health information with the licensed physicians who evaluate your intake, the compounding pharmacies that prepare your medication, and any other healthcare providers involved in your care. For example, your physician may share relevant health information with the dispensing pharmacy to ensure your medication is compounded safely and accurately.</p>
+
+    <h3>Payment</h3>
+    <p>We may use and disclose your PHI to process payments for the healthcare services you receive. This includes verifying your eligibility, processing transactions, and managing billing records. We do not bill insurance on your behalf, but we may use your PHI internally for financial record-keeping and fraud prevention.</p>
+
+    <h3>Healthcare operations</h3>
+    <p>We may use and disclose your PHI for our internal healthcare operations, including quality assessment and improvement activities, training and education of our staff and affiliated providers, compliance and legal functions, and general administrative activities necessary to run our platform.</p>
+
+    <h3>As required by law</h3>
+    <p>We may disclose your PHI when required to do so by federal, state, or local law, including in response to a court order, subpoena, or government investigation.</p>
+
+    <h3>Public health activities</h3>
+    <p>We may disclose your PHI to public health authorities for activities such as reporting communicable diseases, adverse drug events, or other public health concerns as required by law.</p>
+
+    <h3>Health oversight activities</h3>
+    <p>We may disclose your PHI to health oversight agencies (such as the FDA, state medical boards, or the Department of Health) for activities authorized by law, including audits, investigations, and inspections.</p>
+
+    <h3>Serious threats to health or safety</h3>
+    <p>We may use or disclose your PHI if we believe in good faith that doing so is necessary to prevent or lessen a serious and imminent threat to the health or safety of a person or the public, and the disclosure is made to someone reasonably able to prevent or lessen the threat.</p>
+
+    <h3>Business associates</h3>
+    <p>We may share your PHI with our business associates — third-party vendors who help us operate our platform, such as cloud storage providers, IT support, and analytics services — provided they have signed a Business Associate Agreement (BAA) committing to protect your PHI in accordance with HIPAA.</p>
+
+    <h3>Uses requiring your written authorization</h3>
+    <p>For any use or disclosure of your PHI not described above — including most uses for marketing purposes, the sale of PHI, or uses of psychotherapy notes — we will ask for your written authorization. You have the right to revoke that authorization at any time by contacting us in writing, except to the extent we have already acted in reliance on it.</p>
+  </div>
+
+  <div class="policy-section" id="special">
+    <h2>3. Special Categories Requiring Additional Protections</h2>
+    <p>Certain categories of health information receive heightened protections under federal and state law. We treat the following categories with additional care and will not disclose them without your explicit authorization except as specifically permitted by law:</p>
+    <ul>
+      <li><strong>Mental health and substance use disorder information</strong> — subject to additional restrictions under 42 CFR Part 2 and applicable state laws</li>
+      <li><strong>HIV/AIDS status</strong> — protected under many state laws with stricter disclosure limitations</li>
+      <li><strong>Genetic information</strong> — protected under the Genetic Information Nondiscrimination Act (GINA) and HIPAA</li>
+      <li><strong>Reproductive health information</strong> — subject to applicable state privacy protections</li>
+      <li><strong>Information about minors</strong> — subject to additional parental rights and state-specific provisions</li>
+    </ul>
+    <p>If you have questions about how a specific category of your health information is protected, please contact our Privacy Officer.</p>
+  </div>
+
+  <div class="policy-section" id="your-rights">
+    <h2>4. Your Rights Regarding Your PHI</h2>
+    <p>You have the following rights with respect to your protected health information. To exercise any of these rights, please submit a written request to our Privacy Officer at <a href="mailto:privacy@easierx.com">privacy@easierx.com</a>.</p>
+
+    <div class="rights-grid">
+      <div class="right-card">
+        <h4>Right to access</h4>
+        <p>You have the right to inspect and receive a copy of your PHI held in our records, including your medical intake, consultation notes, and prescription records. We will provide access within 30 days of your request. A reasonable copying fee may apply.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to amend</h4>
+        <p>If you believe your PHI is incorrect or incomplete, you may request an amendment. We may deny the request if the information was not created by us, is not part of our records, or is accurate and complete. We will respond within 60 days.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to an accounting</h4>
+        <p>You have the right to request a list of certain disclosures of your PHI made in the six years prior to your request. This does not include disclosures made for treatment, payment, or healthcare operations, or disclosures made with your authorization.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to request restrictions</h4>
+        <p>You may request that we restrict how we use or disclose your PHI for treatment, payment, or healthcare operations. We are not required to agree to your request except in certain limited circumstances defined by law.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to confidential communications</h4>
+        <p>You may request that we communicate with you about your PHI in a specific way or at a specific location — for example, by email only, or at a particular address. We will accommodate reasonable requests.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to a paper copy</h4>
+        <p>You have the right to request a paper copy of this Notice of Privacy Practices at any time, even if you have agreed to receive it electronically. Contact us at <a href="mailto:privacy@easierx.com">privacy@easierx.com</a> to request one.</p>
+      </div>
+    </div>
+
+    <h3>Right to opt out of fundraising communications</h3>
+    <p>If EasieRx ever uses your PHI for fundraising purposes, you have the right to opt out of receiving such communications. Any fundraising communication we send will include clear instructions on how to opt out.</p>
+
+    <h3>Right to notification of a breach</h3>
+    <p>In the event of a breach of your unsecured PHI, you have the right to be notified in accordance with HIPAA's Breach Notification Rule. We will notify you without unreasonable delay and within 60 days of discovering the breach, as required by law.</p>
+  </div>
+
+  <div class="policy-section" id="our-duties">
+    <h2>5. Our Duties</h2>
+    <p>EasieRx is required by law to:</p>
+    <ul>
+      <li>Maintain the privacy and security of your protected health information</li>
+      <li>Provide you with this notice of our legal duties and privacy practices</li>
+      <li>Follow the terms of the notice currently in effect</li>
+      <li>Notify you in the event of a breach of your unsecured PHI</li>
+      <li>Not use or disclose your PHI other than as described in this notice or as otherwise permitted by law</li>
+    </ul>
+    <p>We reserve the right to change the terms of this notice at any time. Any changes will apply to PHI we already hold as well as PHI we receive in the future. When we make a material change to this notice, we will post the updated notice on our website and provide it to you upon your next interaction with our Services. The effective date at the top of this notice reflects the most recent revision.</p>
+    <div class="highlight-box">
+      <p>The current version of this Notice of Privacy Practices is always available at <a href="https://easierx.com/hipaa.html">easierx.com/hipaa.html</a> and upon request from our Privacy Officer.</p>
+    </div>
+  </div>
+
+  <div class="policy-section" id="complaints">
+    <h2>6. How to File a Complaint</h2>
+    <p>If you believe your privacy rights have been violated, you have the right to file a complaint with EasieRx or with the U.S. Department of Health and Human Services (HHS) Office for Civil Rights. We will not retaliate against you for filing a complaint.</p>
+
+    <h3>File a complaint with EasieRx</h3>
+    <p>Contact our Privacy Officer in writing at <a href="mailto:privacy@easierx.com">privacy@easierx.com</a>. Please describe the nature of your concern in as much detail as possible. We will acknowledge your complaint within 5 business days and respond within 30 days.</p>
+
+    <h3>File a complaint with HHS</h3>
+    <p>You may also file a complaint directly with the HHS Office for Civil Rights:</p>
+    <ul>
+      <li><strong>Online:</strong> <a href="https://www.hhs.gov/ocr/complaints" target="_blank" rel="noopener">hhs.gov/ocr/complaints</a></li>
+      <li><strong>Phone:</strong> 1-800-368-1019 (TDD: 1-800-537-7697)</li>
+      <li><strong>Mail:</strong> U.S. Department of Health and Human Services, 200 Independence Avenue SW, Washington, D.C. 20201</li>
+    </ul>
+    <p>There is no deadline for filing a complaint with HHS, but complaints are typically filed within 180 days of when you knew or should have known about the violation.</p>
+  </div>
+
+  <div class="policy-section" id="contact">
+    <h2>7. Contact Our Privacy Officer</h2>
+    <p>For questions about this notice, to exercise your rights, or to request a paper copy of this notice, please contact our designated Privacy Officer:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:privacy@easierx.com">privacy@easierx.com</a></li>
+      <li><strong>Website:</strong> <a href="https://easierx.com">easierx.com</a></li>
+    </ul>
+    <p>We are committed to responding to all privacy-related inquiries promptly and to upholding the highest standards of health information privacy and security.</p>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <a href="/" class="footer-logo">Easie<span>Rx</span></a>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Service</a>
+    <a href="/hipaa.html">HIPAA Notice</a>
+    <a href="#">Contact</a>
+  </div>
+  <p>© 2026 EasieRx · easierx.com</p>
+</footer>
+
+</body>
+</html>
